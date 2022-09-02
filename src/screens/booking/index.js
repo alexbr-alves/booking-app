@@ -78,7 +78,7 @@ export default function Booking({navigation: {goBack}}){
             <Image style={styles.boddy__features__image} source={hoteis[indice].features.restaurant === true? f5 : null}/>
             </View>
             <View style={styles.boddy__pryce}>
-                <Text style={styles.boddy__price__text}>${hoteis[indice].day_price * route.params.days * route.params.person} TOTAL</Text>
+                <Text style={styles.boddy__price__text}>${(hoteis[indice].day_price * route.params.days * route.params.person).toFixed(2)} TOTAL</Text>
                 <TouchableOpacity style={styles.buttom}>
                     <Text style={styles.buttom__text}>BOOK NOW</Text>
                 </TouchableOpacity>
