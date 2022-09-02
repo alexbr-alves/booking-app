@@ -8,6 +8,7 @@ import { Poppins_400Regular, Poppins_500Medium, Poppins_600SemiBold } from '@exp
 import Home from './src/screens/home';
 import AppRoutes from './src/routes/appRoutes';
 
+import Search from './src/screens/search';
 export default function App() {
 
   let [fontsLoaded, error] = useFonts({
@@ -26,7 +27,6 @@ export default function App() {
 
   return (
     <>
-    <StatusBar/>
     <AppRoutes/>
     </>
   );

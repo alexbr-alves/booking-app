@@ -29,18 +29,18 @@ import { useNavigation } from "@react-navigation/native";
             secureTextEntry={true}
             />
 
-            <TouchableOpacity style={styles.buttom} onPress={() => {navigation.navigate('Home')}}>
+            <TouchableOpacity style={styles.buttom} onPress={() => {navigation.navigate('TabRoutes')}}>
                 <Text style={styles.buttom__text}>Login</Text>
             </TouchableOpacity>
 
             <Text style={styles.text__or}>or</Text>
 
             <View style={styles.conexions}>
-                <TouchableOpacity onPress={() => {navigation.navigate('Home')}}>
+                <TouchableOpacity onPress={() => {navigation.navigate('TabRoutes')}}>
                     <Image style={styles.conexions__icons} source={iconFacebook}/>
                 </TouchableOpacity>
 
-                <TouchableOpacity onPress={() => {navigation.navigate('Home')}}>
+                <TouchableOpacity onPress={() => {navigation.navigate('TabRoutes')}}>
                     <Image style={styles.conexions__icons} source={iconGoogle}/>
                 </TouchableOpacity>
             </View>

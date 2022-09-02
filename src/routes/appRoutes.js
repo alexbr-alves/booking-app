@@ -3,8 +3,10 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
 import Login from '../screens/login';
-import Home from '../screens/home';
-import Welcome from '../screens/welcome'
+import Welcome from '../screens/welcome';
+import Booking from '../screens/booking';
+
+import TabRoutes from './tabRoutes';
 const Stack = createNativeStackNavigator();
 
 export default function AppRoutes(){
@@ -21,7 +23,12 @@ export default function AppRoutes(){
            headerShown: false,
             }}/>
 
-            <Stack.Screen name="Home" component={Home} options={{
+            <Stack.Screen name="TabRoutes" component={TabRoutes} options={{
+           title: '',
+           headerShown: false,
+            }}/>
+
+            <Stack.Screen name="Booking" component={Booking} options={{
            title: '',
            headerShown: false,
             }}/>

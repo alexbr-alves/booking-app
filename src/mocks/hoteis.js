@@ -23,7 +23,7 @@ const hoteis = [
         id: `${Math.floor(Date.now() * Math.random()).toString(36)}` ,
         name: 'Central Park Hotel',
         city: 'Londres',
-        address: '49 Queensborough Terrace, Westminster Borough',
+        address: '49 Queensborough Terrace',
         overview: "Located less than 100 meters from Hyde Park, Central Park Hotel is just a 2-minute walk from Queensway Underground Station. Central Park Hotel has a 24-hour front desk and is a 15-minute walk from Kensington's shops, bars and restaurants.",
         avaliacao: 4.5,
         day_price: 99.5,
@@ -44,8 +44,8 @@ const hoteis = [
         id: `${Math.floor(Date.now() * Math.random()).toString(36)}` ,
         name: 'Sea Containers London',
         city: 'Londres',
-        address: '20 Upper Ground, Southwar',
-        overview: "Localizado no centro do bairro badalado de Marylebone, em Londres, este hotel de luxo tem um impressionante saguão de 8 andares com teto de vidro e palmeiras imponentes, além de restaurante premiado, quartos luxuosos, piscina coberta e spa.",
+        address: '20 Upper Ground',
+        overview: "Located in the heart of London's trendy Marylebone, this luxury hotel has a stunning 8-story glass-roofed lobby with towering palm trees, an award-winning restaurant, luxurious rooms, an indoor pool and spa.",
         avaliacao: 4.9,
         day_price: 151.78,
         features :{
@@ -65,7 +65,7 @@ const hoteis = [
         id: `${Math.floor(Date.now() * Math.random()).toString(36)}` ,
         name: 'The Landmark London',
         city: 'Londres',
-        address: '222 Marylebone Road, Westminster Borough',
+        address: '222 Marylebone Road',
         overview: "Located on the banks of the River Thames, Sea Containers London is set in the famous Sea Containers House, just a 7-minute walk from the Tate Modern and Shakespeare’s Globe Theatre. The hotel is also a 15-minute walk from the London Eye, Borough Market, London Dungeon and Sea Life London Aquarium.",
         avaliacao: 4.2,
         day_price: 91.78,
@@ -86,7 +86,7 @@ const hoteis = [
         id: `${Math.floor(Date.now() * Math.random()).toString(36)}` ,
         name: 'Royal Lancaster London',
         city: 'Londres',
-        address: 'Lancaster Terrace, Westminster Borough',
+        address: 'Lancaster Terrace',
         overview: "This 5-star London hotel is situated in a quiet area close to Hyde Park, Marble Arch and Lancaster Gate tube station. The accommodation has an incredible panoramic view of London. There is a free on-site fitness center open 24/7, as well as 2 award-winning restaurants.",
         avaliacao: 4.7,
         day_price: 121.78,
@@ -104,3 +104,5 @@ const hoteis = [
         longitude: -0.177391,
     },
 ]
+
+export default hoteis;

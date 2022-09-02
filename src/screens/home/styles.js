@@ -4,7 +4,8 @@ const correcao = 1.28
 
 export default StyleSheet.create({
     container: {
-        backgroundColor: '#ffffff'
+        backgroundColor: '#ffffff',
+        height: '100%'
     },
     header: {
         flexDirection: 'row',
@@ -100,7 +101,7 @@ export default StyleSheet.create({
         marginTop: 198 * correcao,
         borderWidth: 2,
         borderColor: '#317773',
-        backgroundColor: '#ffffff'
+        backgroundColor: '#ffffff',
        
     },
     modal__title:{
@@ -120,7 +121,8 @@ export default StyleSheet.create({
         width: 40,
         height: 40,
         alignItems: "center",
-        justifyContent: 'center'
+        justifyContent: 'center',
+        borderRadius: 20
     },
     modal__count__mais: {
         marginHorizontal: 10,
@@ -128,7 +130,8 @@ export default StyleSheet.create({
         width: 40,
         height: 40,
         alignItems: "center",
-        justifyContent: 'center'
+        justifyContent: 'center',
+        borderRadius: 20
     },
     modal__count__person: {
         fontSize: 30,
